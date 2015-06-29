@@ -100,7 +100,8 @@
    ;; Curly brackets etc.
    '("\\([][(){};\+\*\-\/]\\)" . 'tintin-symbol-face)
    ;; All possible '#' commands, even '#EOUOEU'. Yes, I'm lazy.
-   '("\\(#[a-zA-Z0-9]*\\)[ \t\n]" . 'tintin-hash-face)
+   ;; '("\\(#[a-zA-Z0-9]*\\)[ \t\n]" . 'tintin-hash-face)
+   '("\\(#[a-zA-Z0-9]*\\)" . 'tintin-hash-face)
   )
   "Default highlighting for tintin mode")
 
