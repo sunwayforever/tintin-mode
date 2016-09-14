@@ -16,12 +16,6 @@
     map)
   "Keymap for tintin major mode")
 
-;; autoload tintin-mode for *.tin
-(add-to-list 'auto-mode-alist
-	     '("\\.tin\\'" . tintin-mode)
-	     '("\\.tt\\'" . tintin-mode))
-
-
 (let (
       (red "#c95d5d") ;
       (green "#359440") ;
